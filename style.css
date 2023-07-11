@@ -76,6 +76,7 @@ letter-spacing: -0.49px;
 text-transform: uppercase;
 }
 
+
 footer p {
     color: #BDBDBD;
 text-align: center;
@@ -84,4 +85,39 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+
+@media only screen and (max-width:950px) {
+    #not_found {
+        display: block;
+        margin-bottom: 10%;
+    }
+    #main-div {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 60%;
+    }
+
+    #left-content {
+        padding-top: 50px;
+        height: 200px;
+        width: 300px;;
+    }
+
+
+    h1 {
+        font-size: 48px;
+        font-weight: 400;
+        width: 300px;
+    }
+
+    p {
+        width: 300px;
+    }
+
+    footer {
+        margin-top: 250px;
+    }
+
 }
